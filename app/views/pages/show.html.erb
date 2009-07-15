@@ -1,0 +1,23 @@
+<p>
+  <b>Name:</b>
+  <%=h @page.name %>
+</p>
+
+<p>
+  <b>Permalink:</b>
+  <%=h @page.permalink %>
+</p>
+
+<p>
+  <b>Position:</b>
+  <%=h @page.position %>
+</p>
+
+<p>
+  <b>Content:</b>
+  <%=h @page.content %>
+</p>
+
+
+<%= link_to 'Edit', edit_page_path(@page) %> |
+<%= link_to 'Back', pages_path %>
